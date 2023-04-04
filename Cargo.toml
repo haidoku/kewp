@@ -1,0 +1,12 @@
+[package]
+name = "kewp"
+version = "0.1.0"
+authors = ["voltage <voltagetalk@proton.me>"]
+edition = "2018"
+
+[dependencies]
+clap = "3.0.0"
+
+[[bin]]
+name = "kewp"
+path = "src/main.rs"
