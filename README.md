@@ -18,7 +18,7 @@ You can then install kewp globally using the command:
 cargo install --path .
 ```
 
-This will install the `*kewp*` binary in your system's binary directory, which should be included in your `*PATH*`.
+This will install the `kewp` binary in your system's binary directory, which should be included in your `PATH`.
 
 ## Usage
 
@@ -28,7 +28,7 @@ To create a new app directory with Kewp, run the command:
 kewp <appname> create
 ```
 
-Replace `*<appname>*` with the name you want to give your new app directory. This will create a new directory with the following structure:
+Replace `<appname>` with the name you want to give your new app directory. This will create a new directory with the following structure:
 
 ```Files
 <appname>/
